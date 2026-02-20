@@ -36,6 +36,8 @@ RUN pip install --no-cache-dir --upgrade pip \
     scikit-learn \
     gpxpy \
     geopy \
+    dotenv \
+    numpy-ext \
     && jupyter notebook --generate-config \
     && rm -rf /root/.cache/pip/*
 
