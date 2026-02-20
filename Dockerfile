@@ -38,6 +38,7 @@ RUN pip install --no-cache-dir --upgrade pip \
     geopy \
     dotenv \
     numpy-ext \
+    sqlalchemy \
     && jupyter notebook --generate-config \
     && rm -rf /root/.cache/pip/*
 
