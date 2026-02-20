@@ -39,6 +39,7 @@ RUN pip install --no-cache-dir --upgrade pip \
     dotenv \
     numpy-ext \
     sqlalchemy \
+    psycopg2-binary \
     && jupyter notebook --generate-config \
     && rm -rf /root/.cache/pip/*
 
