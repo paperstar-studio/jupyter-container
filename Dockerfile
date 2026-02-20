@@ -35,6 +35,7 @@ RUN pip install --no-cache-dir --upgrade pip \
     seaborn \
     scikit-learn \
     gpxpy \
+    geopy \
     && jupyter notebook --generate-config \
     && rm -rf /root/.cache/pip/*
 
